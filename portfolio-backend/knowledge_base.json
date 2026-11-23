@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "name": "Eya Sahbeni",
+    "title": "Junior Application Security & DevSecOps Engineer",
+    "location": "Tunisia",
+    "availability": "Immediate · remote-friendly · open to international roles",
+    "email": "sahbenieya016@gmail.com",
+    "linkedin": "https://linkedin.com/in/sahbeni-eya",
+    "github": "https://github.com/SahbeniEya",
+    "languages": {
+      "arabic": "native",
+      "english": "fluent",
+      "french": "fluent",
+      "german": "basic"
+    },
+    "focus_areas": [
+      "web application security",
+      "vulnerability assessment",
+      "security automation",
+      "DevSecOps pipelines",
+      "AI-driven security tooling"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Engineering Degree in Information Systems and Network Security",
+      "institution": "TEK-UP University, Tunisia",
+      "years": "2023 - 2026"
+    },
+    {
+      "degree": "Preparatory Cycle in Mathematics and Physics",
+      "institution": "Faculty of Sciences of Tunis (FST)",
+      "years": "2021 - 2023"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "eWPT - Web Application Penetration Tester",
+      "issuer": "INE Security (eLearnSecurity)",
+      "year": "2026",
+      "verify_url": "https://certs.ine.com/31cfdcf7-a030-4fd4-afaf-ce07fc7175d3#acc.7Sxvg4WE"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Security Engineer — CyberSmart (end-of-studies project)",
+      "organization": "SmartSkills, Tunisia",
+      "dates": "February 2026 - July 2026",
+      "type": "End-of-studies engineering project",
+      "summary": "Designed and built CyberSmart, an AI-assisted penetration testing platform using LLM-driven agents to automate target reconnaissance, tool selection, and vulnerability reporting.",
+      "contributions": [
+        "End-to-end system design: FastAPI backend + React dashboard",
+        "Rule-based orchestrator routing targets to Web and Active Directory (AD) agents",
+        "LangGraph agents selecting tools (Nmap, Nikto, Gobuster, enum4linux, sslscan)",
+        "Isolated tool execution in Docker containers",
+        "Finding extraction with regex + LLM, with severity scoring",
+        "Automated HTML/PDF report generation"
+      ],
+      "technologies": ["Python", "FastAPI", "LangGraph", "Ollama", "Llama 3.1", "Qwen 2.5", "React", "SQLite", "Docker", "WSL2", "GitHub Actions"],
+      "outcomes": "Working platform with autonomous Web and AD pentesting agents, demo-ready reports, and a reproducible lab environment. Architecture documented and defended at the final-year soutenance."
+    },
+    {
+      "title": "Threat Intelligence & OSINT Engineer (internship)",
+      "organization": "Talan Tunisie",
+      "dates": "June 2025 - August 2025",
+      "type": "Cybersecurity internship",
+      "summary": "Contributed to Talan's cybersecurity team on External Attack Surface Management (EASM) and threat intelligence, with a focus on OSINT collection, information extraction and enrichment.",
+      "missions": [
+        "EASM tool optimization and workflow improvements",
+        "OSINT and threat intelligence enrichment pipelines",
+        "Integration of Taranis AI for intelligence aggregation",
+        "Entity recognition and information extraction (NER)",
+        "Data clustering and reporting for analysts",
+        "MISP (Malware Information Sharing Platform) integration"
+      ],
+      "technologies": ["Taranis AI", "MISP", "Python", "OSINT tooling", "NLP / NER", "dark web monitoring", "Elastic Stack"],
+      "outcomes": "Improved analyst throughput on EASM and threat intelligence tasks through automation and targeted information extraction."
+    }
+  ],
+  "international_experience": [
+    {
+      "program": "DAAD-supported academic trip",
+      "location": "Germany",
+      "date": "July 2025",
+      "description": "Exposure to academic and professional practices abroad."
+    },
+    {
+      "program": "Academic trip",
+      "location": "Turkey",
+      "date": "February 2025",
+      "description": "Workshops and seminars on emerging technologies."
+    }
+  ],
+  "projects": [
+    {
+      "name": "CyberSmart",
+      "status": "flagship - end-of-studies project (see experience section for details)",
+      "repo": "https://github.com/SahbeniEya/CyberSmart"
+    },
+    {
+      "name": "CodeScanAI",
+      "category": "Generative AI for vulnerability remediation",
+      "description": "Flask-based security scanner combining SAST, SCA and DAST (with optional OWASP ZAP). Uses an LLM provider (OpenAI, Gemini, Hugging Face, or custom) to suggest vulnerability fixes. CLI and web interface with GitHub pull-request integration.",
+      "technologies": ["Python", "Flask", "SAST", "SCA", "DAST", "OWASP ZAP"]
+    },
+    {
+      "name": "High-Availability OTP Service",
+      "category": "Academic DevOps project",
+      "description": "One-time-password service with HMAC-SHA256 codes, TOTP / QR-code 2FA setup and rate limiting. Flask REST API, Next.js dashboard, Redis, packaged with Docker Compose, Kubernetes manifests and a Prometheus metrics endpoint.",
+      "technologies": ["Flask", "Next.js", "Redis", "Docker", "Kubernetes", "Prometheus"]
+    },
+    {
+      "name": "eWPT Notes",
+      "category": "Certification study notes",
+      "description": "Study notes and resources for the eWPT web application penetration testing certification.",
+      "technologies": ["Web pentesting", "OWASP", "eWPT"]
+    },
+    {
+      "name": "Secure Cloud Architecture (AWS)",
+      "category": "Academic coursework (no public repo)",
+      "description": "Designed a secure AWS architecture with segmented VPCs, WAF, ALB, KMS encryption, secrets management and high availability."
+    },
+    {
+      "name": "Cisco SD-WAN Secure Deployment",
+      "category": "Academic coursework (no public repo)",
+      "description": "Implemented a secure SD-WAN architecture with IPsec, VPN segmentation, certificate-based authentication and centralized monitoring."
+    }
+  ],
+  "skills": {
+    "security_tools": ["Burp Suite", "OWASP ZAP", "Metasploit", "Nmap", "Masscan", "Wireshark", "tcpdump", "Nikto", "Gobuster", "SQLmap", "enum4linux", "Netcat", "Nessus", "OpenVAS/Greenbone", "Hydra", "John the Ripper", "Hashcat", "SSLScan", "testssl.sh", "Kali Linux", "OWASP Top 10", "MITRE ATT&CK"],
+    "devops_and_cloud": ["Docker", "Podman", "Docker Compose", "Kubernetes", "Minikube", "Trivy", "Docker Scout", "GitHub Actions", "GitLab CI/CD", "Azure DevOps", "Terraform", "Ansible", "Git", "GitHub", "GitLab"],
+    "systems_and_virtualization": ["Linux", "Red Hat", "Ubuntu", "Windows", "Kali", "VMware Workstation", "SSH", "PuTTY", "Bash", "systemd", "PacketFence", "FreeRADIUS", "Nginx", "PostgreSQL", "Redis", "ClickHouse"],
+    "monitoring_and_observability": ["Prometheus", "Grafana", "Elastic Stack (ELK)", "Wazuh", "Wireshark"],
+    "ai_and_automation": ["LangGraph", "Ollama", "OpenRouter", "Llama 3.1", "Qwen 2.5", "GPT", "LLM agents", "agent orchestration", "autonomous pentesting agent"],
+    "programming": ["Python", "Bash", "JavaScript", "TypeScript", "HTML", "CSS", "React", "Next.js", "FastAPI", "Flask", "REST APIs", "JSON", "YAML"]
+  },
+  "job_interests": {
+    "primary_roles": [
+      "Junior Application Security Engineer",
+      "Junior DevSecOps Engineer",
+      "Junior Penetration Tester",
+      "Junior AI Security Engineer"
+    ],
+    "freelance": true,
+    "remote": true,
+    "international": true
+  }
+}
